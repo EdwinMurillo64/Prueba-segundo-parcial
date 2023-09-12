@@ -1,0 +1,93 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto&family=Space+Mono&display=swap');
+
+
+
+
+:root{
+	--menu-hover:#FE8F01;
+	--color-general:#e0e0e0;
+	--color-titulos:#282d33;
+	--color-iconos: #e0e0e0;
+	--color-checks:#53c3c9;
+}
+body{
+	font-size: 14px;
+	font-family: 'Lato';
+}
+
+body .title{
+	font-size: 20px;
+	text-align: center;
+	color: var(--color-titulos);
+	margin: 20px 0px;
+	font-weight: bold;
+}
+
+body .subtitle{
+	font-size: 14px;
+	text-align: center;
+	line-height: 30px;
+	color: #A7A7A7;
+	
+}
+header{
+	background-color: #FFF;
+	padding: 5px 0;
+}
+
+#hero{
+	background-image: url("../img/bg-services-title.jpg");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	padding: 120px;
+
+}
+#hero h1{
+	font-size: 70px;
+	color: var(--color-general);
+	font-weight: bolder;
+}
+#services{
+	padding: 150px;
+}
+#services .icon i.las{
+	font-size: 180px;
+	color: var(--color-iconos)
+}
+#services .icon{
+	text-align: center;
+}
+#services i.las{
+	color: var(--color-checks);
+	font-size: 70px;
+}
+#services .icon-check{
+	text-align: center;
+}
+
+
+#pages{
+	background-color: #f7f7f7;
+	padding: 100px;
+}
+
+#pages h2{
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+#pages div.row{
+	margin-top: 70px;
+}
+
+
+
+footer{
+	background-color: #333333;
+	color: #bababa;
+	padding: 15px 0;
+	text-align: center;
+}
+
